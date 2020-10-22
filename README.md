@@ -13,7 +13,7 @@ Create a basic Flutter application that generates start-up names. Features inclu
 - Theme customization
 - User interactivity
 
-To access the code, checkout the start_up_generator directory. Workshop 1 code is located in the intro_app branch. Workshop 2 code is on master + interactivity branch.
+To access the code, checkout the start_up_generator directory.
 
 ## Flutter Workshop 3: Firebase for Flutter (October 29)
 
