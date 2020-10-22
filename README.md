@@ -1,16 +1,21 @@
-# start_up_generator
+# Flutter-Study-Jams
 
-A new Flutter project.
+## About DSC:
+The Developer Student Club is dedicated to empowering students to solve local problems through understanding, using, and reflecting on technology. The DSC will host information sessions, hands-on workshops, and student-community collaborative projects centered around the latest and greatest in technology, all with the support of Google and Google Developers.  The DSC aims to create an inclusive and collaborative environment for students of all skill levels and majors.
+Checkout our [chapter page](https://dsc.community.dev/boston-university/) for upcoming events and to join!
+You can also follow us on [Instagram](https://www.instagram.com/bostonu_dsc/) and [Facebook](https://www.facebook.com/Boston-University-Developer-Student-Club-104867584693277/)
 
-## Getting Started
+## Flutter Workshop 1 & 2: Introduction to Flutter & User Interactivity
+Create a basic Flutter application that generates start-up names. Features include:
+- Infinite List
+- Stateful + stateless widgets
+- Navigation
+- Theme customization
+- User interactivity
 
-This project is a starting point for a Flutter application.
+To access the code, checkout the start_up_generator directory. Workshop 1 code is located in the intro_app branch. Workshop 2 code is on master + interactivity branch.
 
-A few resources to get you started if this is your first Flutter project:
+## Flutter Workshop 3: Firebase for Flutter (October 29)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Flutter Workshop 4: Building Beautiful Flutter Apps (November 12)
