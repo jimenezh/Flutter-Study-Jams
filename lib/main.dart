@@ -14,12 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text("Start Up Name Generator"),
-        ),
-        body: Center(child: RandomWords()),
-      ),
+      home: RandomWords(),
     );
   }
 }
@@ -31,6 +26,7 @@ class RandomWords extends StatefulWidget {
 
 class _RandomWordsState extends State<RandomWords> {
   final List<WordPair> _suggestions = <WordPair>[];
+  final Set<WordPair> _saved = Set<WordPair>();
   final TextStyle _biggerFont = TextStyle(fontSize: 18);
 
   Widget _buildSuggestions() {
@@ -51,14 +47,24 @@ class _RandomWordsState extends State<RandomWords> {
   }
 
   Widget _buildRows(WordPair pair) {
+    final alreadySaved = _saved.contains(pair);
     return ListTile(
       title: Text(pair.asPascalCase, style: _biggerFont),
+      trailing: Icon(
+        alreadySaved ? Icons.favorite : Icons.favorite_outline,
+        color: alreadySaved ? Colors.red : null,
+      ),
     );
   }
 
   @override
   Widget build(BuildContext context) {
     final pair = WordPair.random();
-    return _buildSuggestions();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Start Up Name Generator"),
+      ),
+      body: Center(child: _buildSuggestions()),
+    );
   }
 }
