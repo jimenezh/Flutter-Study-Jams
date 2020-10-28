@@ -53,7 +53,7 @@ class _RandomWordsState extends State<RandomWords> {
     return ListTile(
         title: Text(pair.asPascalCase, style: _biggerFont),
         trailing: Icon(
-          alreadySaved ? Icons.favorite : Icons.favorite_outline,
+          alreadySaved ? Icons.favorite : Icons.favorite_border,
           color: alreadySaved ? Colors.red : null,
         ),
         onTap: () {
@@ -87,7 +87,6 @@ class _RandomWordsState extends State<RandomWords> {
 
   @override
   Widget build(BuildContext context) {
-    final pair = WordPair.random();
     return Scaffold(
       appBar: AppBar(
         title: Text("Start Up Name Generator"),
