@@ -16,6 +16,11 @@ Create a basic Flutter application that generates start-up names. Features inclu
 To access the code, checkout the start_up_generator directory.
 
 ## Flutter Workshop 3: Firebase for Flutter (October 29)
+Create a Flutter application that allows users to vote on their favourite start-up name. Features include:
+- ListView
+- Stateful + stateless widgets
+- User interactivity
+- Non-sql database (Firestore)
 
 
 ## Flutter Workshop 4: Building Beautiful Flutter Apps (November 12)
