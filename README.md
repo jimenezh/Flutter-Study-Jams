@@ -31,3 +31,8 @@ Create a beautiful e-commerce application with a focus on UI/UX using Material D
 - Elevation
 
 ## Flutter Workshop 5: Authentication (November 19)
+Create a Flutter e-commerce application with authentication! Features include:
+- Log in and registration page
+- Authentication state listeners
+- Email login
+- Google login
