@@ -24,3 +24,10 @@ Create a Flutter application that allows users to vote on their favourite start-
 
 
 ## Flutter Workshop 4: Building Beautiful Flutter Apps (November 12)
+Create a beautiful e-commerce application with a focus on UI/UX using Material Design guidelines. Customizations include:
+- Color
+- Typography
+- Shape
+- Elevation
+
+## Flutter Workshop 5: Authentication (November 19)
